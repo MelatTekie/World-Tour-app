@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:apps="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/option1"
+        android:title="About"
+        apps:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/option2"
+        android:title="Prefrence"
+        apps:showAsAction="ifRoom"
+        android:background="#FFFF">
+        <menu>
+            <item
+                android:id="@+id/per1"
+                android:title="Map View"/>
+            <item
+                android:id="@+id/per2"
+                android:title="List View"/>
+
+        </menu>
+    </item>
+
+
+</menu>
